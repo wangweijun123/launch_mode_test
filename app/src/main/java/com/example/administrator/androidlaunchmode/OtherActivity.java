@@ -11,19 +11,19 @@ public class OtherActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_other);
-        Log.e("TAG","********OtherActivity***onCreate***********");
+        Log.e("wangweijun_xxx","********OtherActivity***onCreate***********");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.e("TAG","********OtherActivity***onStart***********");
+        Log.e("wangweijun_xxx","********OtherActivity***onStart***********");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.e("TAG","********OtherActivity***onResume***********");
+        Log.e("wangweijun_xxx","********OtherActivity***onResume***********");
     }
 
     public void loadclick(View v){

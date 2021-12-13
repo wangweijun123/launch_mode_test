@@ -6,12 +6,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是Main Activity"/>
 
     <Button
         android:id="@+id/button_my"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="跳转自己"
+        android:text="跳转MainActivity"
         android:onClick="onViewClicked"
          />
 
@@ -19,7 +23,7 @@
         android:id="@+id/button2_other"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="other"
+        android:text="跳转 OtherActivity"
         android:onClick="onViewClicked"
         />
 
